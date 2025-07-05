@@ -13,7 +13,10 @@ else:
     print("invalid selection")
 # pepperoni 
 if pepperoni =="yes":
-    amount+=50
+    if size == "s":
+        amount+=40
+    else:
+        amount+=50
 # cheese
 if cheese =="yes":
     amount+=40
